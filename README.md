@@ -115,7 +115,11 @@ The web server port alerter is used on the unix system, please make sure the sys
 <pre> <code lang="bash">source env/bin/activate</code> </pre>
 <p> 5. Install the required dependancies </p>
 <pre> <code lang="bash">pip install -r requirements.txt</code> </pre>
+<p> 6. Deactivate the virtual environment when finished </p>
+<pre> <code lang="bash">deactivate </code> </pre>
 <p align="right">(<a href="#top">Back to Top</a>)</p>
+
+
 <h2 id="usage"> Usage </h2>
 <p> 1. Edit the python script and then save</p>
 <pre> <code lang="bash">nano alerter.py</code> </pre>
