@@ -66,7 +66,7 @@
 <h4 id="libraries-and-dependancies"> Libraries & Dependancies </h4>
 <ul>
  <li> certifi (v2.7.0) </li>
- <li> charset-normalizer (v3.4.7> </li>
+ <li> charset-normalizer (v3.4.7) </li>
  <li> idna (v3.15) </li>
  <li> requests (v2.34.2) </li>
  <li> urllib3 (v2.7.0) </li>
