@@ -20,8 +20,12 @@
 
 
 <h3 id="web-server-port-alerter "align="center"> 
-  Web Server Port alerter
+  <strong> Web Server Port alerter </strong>
 </h3>
+<p align="center">
+  <img width="200" height="200" alt="Port Scanner" src="https://github.com/user-attachments/assets/08d2fdf6-6da4-4731-a4a7-9eb2c552d03d" />
+</p>
+
 
 <p align="center">
   A Python tool that scans local web server ports and triggers automated alerts
@@ -52,8 +56,10 @@
 
 <h2 id="about-the-project"> About the Project </h2>
 <img width="845" height="62" alt="2 12" src="https://github.com/user-attachments/assets/b0743ece-d452-4e58-8231-a49f5cda9521" />
-
+<p> Port scanning is a fundamental technique widely used by both <strong>Red Teams (Attackers)</strong> and <strong>Blue Teams (Defenders)</strong>. While offensive security teams use port scanners during the reconnaissance phase to discover active hosts and map out open entry points, defensive operations rely on them to audit network perimeters, detect unauthorized services, and identify potential vulnerabilities before they can be exploited. </p>
 <p align="right">(<a href="#top">Back to Top</a>)</p>
+
+
 <h3 id="built-with"> Built With </h3>
 <h4 id="language"> Language </h4>
 <img src="https://img.shields.io/badge/Python-14354C?style=plastic&logo=python&logoColor=white" />
@@ -98,19 +104,31 @@ The web server port alerter is used on the unix system, please make sure the sys
 <p> 2.9. Click "Copy Webhook URL" button and paste it to your clipboard </p>
 <img width="873" height="523" alt="2 9" src="https://github.com/user-attachments/assets/fad75ac0-ec8d-470b-b27a-f9b459e27489" /><br>
 <p> 2.10. Great! The Webhook server is created! </p>
-
-
-
-
-
-
-
-
 <h3 id="installation"> Installation </h3>
+<p> 1. Clone the Repo </p>
+<pre> <code lang="bash">git clone https://github.com/abc1230940/web-server-port-alerter.git</code> </pre>
+<p> 2. Navigate into the folder </p>
+<pre> <code lang="bash">cd web-server-port-alerter</code> </pre> 
+<p> 3. Set up the virtual environment </p>
+<pre> <code lang="bash">python3 -m venv env</code> </pre>
+<p> 4. Activate the virtual environment </p>
+<pre> <code lang="bash">source env/bin/activate</code> </pre>
+<p> 5. Install the required dependancies </p>
+<pre> <code lang="bash">pip install -r requirements.txt</code> </pre>
 <p align="right">(<a href="#top">Back to Top</a>)</p>
-
-
 <h2 id="usage"> Usage </h2>
+<p> 1. Edit the python script and then save</p>
+<pre> <code lang="bash">nano alerter.py</code> </pre>
+<img width="1502" height="832" alt="2 13" src="https://github.com/user-attachments/assets/6fee7b6c-7373-4e6c-94ca-2304af197d26" />
+<p> ❗Since the alerter is used to scan our own web server, so change the IPv4 addresses to <strong>127.0.0.1</strong> and port to <strong>80, 443, 8080</strong> </p>
+<p> ❗Paste your <strong>Webhook URL</strong> from the clipboard you have done before</p>
+<p> 2. Launch the network port alerter script to begin monitoring </p>
+<pre> <code lang="bash">python3 alerter.py</code> </pre>
+<p> 3. If the targeted port was closed or blocked by the firewall, the following alert will be shown </p>
+<img width="845" height="62" alt="2 12" src="https://github.com/user-attachments/assets/9992c26f-5802-4c32-a91a-b2811bf76896" />
+<p> 4. And the alert is also sent to your webhook server, so you can be alerted immediately on your workstation</p>
+<img width="1103" height="125" alt="2 10" src="https://github.com/user-attachments/assets/50e20e1e-e0e1-4bc7-9511-0096cfaf5854" />
+<p> 5. The alerter is run automatically for every hour (3600 seconds) to keep checking the operation of your server</p>
 <p align="right">(<a href="#top">Back to Top</a>)</p>
 
 
