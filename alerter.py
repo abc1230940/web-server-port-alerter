@@ -8,7 +8,7 @@ targets = [
     ("8.8.8.8", 80, "TCP"),
     ("127.0.0.1", 9999, "TCP")] 
 
-SLACK_WEBHOOK_URL = "https://discordapp.com/api/webhooks/1506893084498202694/Dca8EBNr-R3i2UZI46KF5Ds7Mxp5l8HpsqoVGTDp4Llxo8nyYQiZwGsNNqBqypAbzj8r" 
+SLACK_WEBHOOK_URL = "" # Your Webhook Server URL 
 
 def check_port(target, port, protocol): 
     try: 
