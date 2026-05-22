@@ -28,7 +28,7 @@
 
 
 <p align="center">
-  A Python tool that scans local web server ports and triggers automated alerts
+  An automated Python tool that scans local web server ports every 1 hour and triggers automated alerts to send to Discord Webhook server
 </p> <br>
 
 <details>
