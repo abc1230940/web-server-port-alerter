@@ -124,7 +124,7 @@ The web server port alerter is used on the unix system, please make sure the sys
 <p> ❗Paste your <strong>Webhook URL</strong> from the clipboard you have done before</p>
 <p> 2. Launch the network port alerter script to begin monitoring </p>
 <pre> <code lang="bash">python3 alerter.py</code> </pre>
-<p> 3. If the targeted port was closed or blocked by the firewall, the following alert will be shown </p>
+<p> 3. If the targeted port was closed or service was down, the following alert will be shown </p>
 <img width="845" height="62" alt="2 12" src="https://github.com/user-attachments/assets/9992c26f-5802-4c32-a91a-b2811bf76896" />
 <p> 4. And the alert is also sent to your webhook server, so you can be alerted immediately on your workstation</p>
 <img width="1103" height="125" alt="2 10" src="https://github.com/user-attachments/assets/50e20e1e-e0e1-4bc7-9511-0096cfaf5854" />
