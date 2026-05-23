@@ -79,10 +79,10 @@ The web server port alerter is used on the unix system, please make sure the sys
 <h3 id="prerequisites"> Prerequisites </h3>
 <p> 1. System Update and Installation of Python </p>
 <pre> <code lang="bash"> sudo apt update && sudo apt install -y python3.12-venv </code> </pre>
-<p> 2. Configurating a Discord Webhook Server </p>
-<p> 2-1. Navigating to <a href="https://discord.com"> Discord </a> and Login </p>
+<p> 2. Configure a Discord Webhook Server </p>
+<p> 2-1. Navigate to <a href="https://discord.com"> Discord </a> and Login </p>
 <img width="1851" height="965" alt="2" src="https://github.com/user-attachments/assets/4ffcb751-461d-4d9d-bd9b-f5c570db63de" /><br>
-<p> 2-2. Add a Server</p>
+<p> 2-2. Scroll down the navbar on the left and click "Add a Server" </p>
 <img width="467" height="208" alt="2 0" src="https://github.com/user-attachments/assets/373f25c0-33a6-4195-b7ff-2d6040171e8c" /><br>
 <p> 2-3. Create Your Server</p>
 <p> choose "Create My Own" </p>
@@ -96,14 +96,17 @@ The web server port alerter is used on the unix system, please make sure the sys
 <p> 2-6. A server is installed </p>
 <p> Click the Gear icon next to # general </p>
 <img width="1503" height="821" alt="2 4" src="https://github.com/user-attachments/assets/8aeef7c3-6660-4663-9679-96c88d535915" /><br>
-<p> 2-7. Click "Overview" </p>
+<p> 2-7. Click "Integration" </p>
 <img width="322" height="293" alt="2 6" src="https://github.com/user-attachments/assets/9cbf5013-aa5a-4589-a794-bdf07ec93482" /><br>
 <p> 2-8. Click "Create Webhook" button </p>
 <img width="963" height="497" alt="2 7" src="https://github.com/user-attachments/assets/8696f10d-5717-45e7-9812-c900793bab44" /><br>
 <img width="970" height="606" alt="2 8" src="https://github.com/user-attachments/assets/975b1735-aeb7-45d1-9b55-864bd0d8daf7" /><br>
 <p> 2.9. Click "Copy Webhook URL" button and paste it to your clipboard </p>
 <img width="873" height="523" alt="2 9" src="https://github.com/user-attachments/assets/fad75ac0-ec8d-470b-b27a-f9b459e27489" /><br>
+<img width="1252" height="105" alt="Screenshot 2026-05-23 154908" src="https://github.com/user-attachments/assets/e5825510-f69d-4195-9994-18b7369c9b90" />
 <p> 2.10. Great! The Webhook server is created! </p>
+
+
 <h3 id="installation"> Installation </h3>
 <p> 1. Clone the Repo </p>
 <pre> <code lang="bash">git clone https://github.com/abc1230940/web-server-port-alerter.git</code> </pre>
